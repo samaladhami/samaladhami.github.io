@@ -1,0 +1,79 @@
+body{
+  background-color: #d6d6d6;
+  margin: 0;
+  padding: 0;
+}
+section{
+  text-align: center;
+  height: 73vh;
+}
+
+.wrapper{
+  padding-top: 6vh;
+  padding-right: 12vw;
+}
+
+.hello{
+ margin: 19px;
+ font-family: fantasy;
+ font-size: 36px;
+}
+.myPic{
+  width: 247px;
+  border-radius: 100%;
+  border: 4px solid #949292;
+}
+
+.myName{
+  font-size: 19px;
+    font-family: monospace;
+}
+.sideBar{
+  background-color: #151515;
+  height: 100%;
+  width: 176px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-family: fantasy;
+  font-size: 0.9em;
+  color: #464646;
+
+}
+
+.logo{
+  width: 151px;
+    padding-top: 23px;
+    padding-bottom: 22px;
+}
+
+.who-I-am:hover{
+  color:#cecdcd;
+  cursor: pointer;
+}
+
+.code-work:hover{
+  color:#cecdcd;
+  cursor: pointer;
+}
+
+.what-I-know:hover{
+  color:#cecdcd;
+  cursor: pointer;
+}
+
+.connect-me{
+
+}
+
+.connect-me:hover{
+  color:#cecdcd;
+  cursor: pointer;
+}
+
+footer > img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 127px;
+}
