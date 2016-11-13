@@ -2,32 +2,46 @@ body{
   background-color: #d6d6d6;
   margin: 0;
   padding: 0;
+  /*background: url() no-repeat;*/
+  /*background-size: cover;*/
 }
+
 section{
   text-align: center;
   height: 73vh;
 }
 
+.background{
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 111%;
+  opacity: 0.9;
+}
+
 .wrapper{
-  padding-top: 6vh;
+  padding-top: 12vh;
   padding-right: 12vw;
 }
 
 .hello{
  margin: 19px;
+
  font-family: fantasy;
- font-size: 36px;
+ font-size: 57px;
 }
 .myPic{
-  width: 247px;
+  width: 6px;
   border-radius: 100%;
   border: 4px solid #949292;
 }
 
 .myName{
-  font-size: 19px;
-    font-family: monospace;
+  font-size: 24px;
+  margin-top: 29px;
+  font-family: monospace;
 }
+
 .sideBar{
   background-color: #151515;
   height: 100%;
@@ -38,6 +52,10 @@ section{
   font-family: fantasy;
   font-size: 0.9em;
   color: #464646;
+}
+
+.sideBar > h2 {
+  margin-bottom: 48px;
 
 }
 
@@ -71,9 +89,17 @@ section{
   cursor: pointer;
 }
 
+.sideBar-nav{
+  margin-top: 75px;
+}
+.sideBar-nav > h2{
+  margin-bottom: 56px;
+}
+
 footer > img {
-  width: 100%;
+  width: 61%;
   position: absolute;
-  bottom: 0;
-  height: 127px;
+  bottom: -25px;
+  left: 14%;
+  height: 138px;
 }
