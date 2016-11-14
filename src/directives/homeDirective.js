@@ -25,7 +25,13 @@ angular.module('portfolio')
 
       $('.hello').hide()
       $('.myPic').hide()
-      $('.who-I-am').css('color' , 'rgb(193, 192, 192)')
+      $('.who-I-am').css('color' , 'rgb(193, 192, 192)');
+      $('.code-work').css('color' , '#464646');
+      $('.what-I-know').css('color' , '#464646');
+      $('.contact').css('color' , '#464646');
+
+
+
 
       $('.hello').fadeIn( 1000 );
       let hello = setInterval(() => {
