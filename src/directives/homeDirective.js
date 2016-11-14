@@ -64,7 +64,7 @@ angular.module('portfolio')
 
       setTimeout(()=>{
         $('.who-I-am-text-and-footer-img').fadeIn( 500 );
-      },3700)
+      },4000)
 
       setTimeout(()=>{
         sideBarNavInterval = setInterval(() => {
@@ -74,7 +74,7 @@ angular.module('portfolio')
             $('.sideBar-nav').css('margin-top' , sideBarMarginCounter+'px')
           }
         },10)
-      },4000)})
+      },4500)})
 
       setTimeout(()=>{
         clearInterval( sideBarNavInterval );

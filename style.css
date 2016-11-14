@@ -113,12 +113,64 @@ section{
 .sideBar-nav{
   margin-top: 75px;
   display: none;
+  overflow: scroll;
 }
 .sideBar-nav > h2{
   margin-bottom: 56px;
 }
 .who-I-am-text-and-footer-img{
   display: none;
+}
+.icons-wrapper{
+  height: 100vh;
+  overflow: scroll;
+  float: left;
+  width: 81%;
+  margin-left: 2%;
+ }
+.icons-wrapper > img {
+margin: 4.5%;
+}
+
+.js{
+  width: 12%;
+}
+
+.HTML5{
+  width: 14%;
+}
+.CSS3{
+  width: 14%;
+}
+.angular{
+  width: 15%;
+}
+
+.jquery{
+  width: 15%;
+}
+.Git{
+  width: 16%;
+}
+.bootstrap{
+  width: 13%;
+  padding-bottom: 1%
+}
+.sass{
+  width: 15%;
+  padding-bottom: 2%;
+}
+.react{
+  width: 15%;
+}
+.Photoshop{
+  width: 14%;
+}
+.node{
+  width: 13%;
+}
+.MongoDB{
+  width: 45%;
 }
 
 .footer-img {
