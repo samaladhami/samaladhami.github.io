@@ -25,7 +25,8 @@ angular.module('portfolio')
 
       $('.hello').hide()
       $('.myPic').hide()
-      $('.sideBar-nav').hide()
+      $('.who-I-am').css('color' , 'rgb(193, 192, 192)')
+
       $('.hello').fadeIn( 1000 );
       let hello = setInterval(() => {
         marginCounter -= 0.1
@@ -56,6 +57,10 @@ angular.module('portfolio')
       },0.5)
 
       setTimeout(()=>{
+        $('.who-I-am-text-and-footer-img').fadeIn( 500 );
+      },3700)
+
+      setTimeout(()=>{
         sideBarNavInterval = setInterval(() => {
           $('.sideBar-nav').fadeIn( 1000 );
           if($('.sideBar-nav').css('margin-top') !== '0px'){
@@ -63,7 +68,7 @@ angular.module('portfolio')
             $('.sideBar-nav').css('margin-top' , sideBarMarginCounter+'px')
           }
         },10)
-      },3700)})
+      },4000)})
 
       setTimeout(()=>{
         clearInterval( sideBarNavInterval );

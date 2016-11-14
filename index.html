@@ -6,14 +6,20 @@
     <link rel="stylesheet" href="style.css" media="screen" title="no title">
   </head>
   <body ng-controller='homeCtrl'>
-    <img class='background' src="http://cdn.wallpapersafari.com/70/96/youRHU.jpg" alt="" />
 
+    <section>
+      <ui-view></ui-view>
+        <div class="sideBar">
+          <img style='cursor:pointer' ui-sref='home' class='logo' src="logo.png" alt="" />
+          <div class="sideBar-nav">
+            <h2 class='who-I-am' ui-sref='home'>Who I am </h2>
+            <h2 class='code-work' ui-sref='codeWork'>Code work </h2>
+            <h2 class='what-I-know' ui-sref='whatIknow'>What I know </h2>
+            <h2 class='connect-me' ui-sref='contact'>Contact</h2>
+          </div>
+        </div>
+    </section>
 
-    <ui-view></ui-view>
-
-    <footer>
-       <img src="footerImg.png" alt="" />
-    </footer>
   </body>
 
   <script src="http://code.jquery.com/jquery-2.2.4.js" ></script>
@@ -22,5 +28,7 @@
   <script src="src/app.js" charset="utf-8"></script>
   <script src="src/homeCtrl.js" charset="utf-8"></script>
   <script src="src/mainService.js" charset="utf-8"></script>
-  <script src="directives/homeDirective.js" charset="utf-8"></script>
+  <script src="src/directives/homeDirective.js" charset="utf-8"></script>
+  <script src="src/directives/codeWorkDirective.js" charset="utf-8"></script>
+  <script src="src/directives/whatIKnowDirective.js" charset="utf-8"></script>
 </html>
