@@ -73,6 +73,8 @@ section{
   font-family: fantasy;
   font-size: 0.9em;
   color: #464646;
+  box-shadow: -11px 0px 9px rgba(0, 0, 0, 0.3);
+  border: 1px solid #545454;
 }
 
 .sideBar > h2 {
@@ -91,7 +93,7 @@ section{
   cursor: pointer;
 }
 
-.code-work:hover{
+.code-work-button:hover{
   color:#cecdcd;
   cursor: pointer;
 }
@@ -109,6 +111,12 @@ section{
   color:#cecdcd;
   cursor: pointer;
 }
+/*.blackLogo{
+  position: absolute;
+      bottom: -5%;
+      left: -24%;
+      opacity: 0.1;
+}*/
 
 .sideBar-nav{
   margin-top: 75px;
@@ -120,6 +128,9 @@ section{
 }
 .who-I-am-text-and-footer-img{
   display: none;
+}
+#WhatIknow{
+  padding-top: 30px;
 }
 .icons-wrapper{
   height: 100vh;
@@ -133,27 +144,27 @@ margin: 4.5%;
 }
 
 .js{
-  width: 12%;
+  width: 11%;
 }
 
 .HTML5{
-  width: 14%;
+  width: 12.5%;
 }
 .CSS3{
-  width: 14%;
+  width: 12.5%;
 }
 .angular{
-  width: 15%;
+  width: 13%;
 }
 
 .jquery{
-  width: 15%;
+  width: 13%;
 }
 .Git{
-  width: 16%;
+  width: 14%;
 }
 .bootstrap{
-  width: 13%;
+  width: 12%;
   padding-bottom: 1%
 }
 .sass{
@@ -161,16 +172,135 @@ margin: 4.5%;
   padding-bottom: 2%;
 }
 .react{
-  width: 15%;
-}
-.Photoshop{
   width: 14%;
 }
-.node{
+.Photoshop{
   width: 13%;
 }
+.node{
+  width: 12%;
+}
 .MongoDB{
+  width: 44%;
+}
+
+#code-work-id{
+  margin-left: 0;
+  padding-top: 7px;
+  padding-bottom: 21px;
+}
+
+.projects-wrapper{
+  width: 81%;
+    margin-left: 0%;
+    height: 90vh;
+    padding-top: 4%;
+    overflow: scroll;
+    position: relative;
+}
+
+.project-logo-and-name{
+  text-align: left;
+  margin-left: 4%;
+  margin-bottom: 4%;
+}
+.line{
+  display: block;
+    padding: 0% 4.5%;
+    border-bottom: 10px solid;
+    width: 24%;
+}
+
+#project-name{
+  /*float: left;*/
+  display: inline-block;
+  font-family: monospace;
+  padding-right: 3%;
+  font-size: 42px;
+}
+
+.project-description{
+  width: 93%;
+  display: inline-block;
+  margin-left: 0%;
+}
+
+
+.project-description > p {
+  background: rgba(0, 0, 0, 0.54);
+  font-size: 22px;
+  border-radius: 17px;
+  padding: 22px;
+  font-family: fantasy;
+  text-shadow: 2px 0px 2px #000000;
+  color: #fff;
+  text-align: left;
+}
+.samDjLogo{
+  display: inline-block;
+  float: right;
+  width: 8%;
+  border: 1px solid rgba(158, 156, 156, 0.32);
+  border-radius: 8px;
+  padding: 18px 4px 24px;
+  box-shadow: -1px -2px 1px rgba(0, 0, 0, 0.47);
+}
+
+  .btn {
+    margin-top: 8%;
+    margin-bottom: 4%;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: fantasy;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background: rgba(52, 152, 219, 0);
+    padding: 10px 20px 10px 20px;
+    /*float: left;*/
+    text-decoration: none;
+    text-shadow: 1px -1px 2px rgba(0, 0, 0, 0.42);
+    margin-left: 5%;
+}
+
+  .btn:hover {
+    background: #151515;
+    text-decoration: none;
+    color: #c5c3c3;
+    text-shadow: 1px -1px 2px rgba(255, 252, 252, 0.42);
+  }
+  .btn:focus{
+    outline: none;
+  }
+
+  .project-imgs{
+    display: inline-block;
+      /*width: 45%;*/
+  }
+
+
+.prjectsImgs{
   width: 45%;
+  margin: 1%;
+  box-shadow: -1px -2px 1px rgba(0, 0, 0, 0.47)
+}
+
+  .e-piano-icon{
+  display: inline-block;
+  width: 7.5%;
+  margin-bottom: -2%;
+  border-radius: 10px;
+  float: right;
+  box-shadow: -1px -2px 1px rgba(0, 0, 0, 0.47);
+}
+
+.alien-hunt-icon{
+  display: inline-block;
+  width: 7.5%;
+  margin-bottom: -2%;
+  border-radius: 10px;
+  float: right;
+  box-shadow: -1px -2px 1px rgba(0, 0, 0, 0.47);
 }
 
 .footer-img {
