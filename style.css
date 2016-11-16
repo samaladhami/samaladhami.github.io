@@ -6,6 +6,9 @@ body{
   background-size: 100vw 100vh;
   }
 
+*:focus{
+  outline: none;
+}
 
 section{
   text-align: center;
@@ -180,6 +183,11 @@ margin: 4.5%;
 .node{
   width: 12%;
 }
+
+.pixi{
+  width: 20%;
+}
+
 .MongoDB{
   width: 44%;
 }
@@ -187,16 +195,19 @@ margin: 4.5%;
 #code-work-id{
   margin-left: 0;
   padding-top: 7px;
-  padding-bottom: 21px;
 }
 
 .projects-wrapper{
   width: 81%;
     margin-left: 0%;
-    height: 90vh;
+    height: 92vh;
     padding-top: 4%;
     overflow: scroll;
     position: relative;
+}
+
+.project-div{
+  padding-top: 8%;
 }
 
 .project-logo-and-name{
@@ -208,7 +219,7 @@ margin: 4.5%;
   display: block;
     padding: 0% 4.5%;
     border-bottom: 10px solid;
-    width: 24%;
+    width: 30%;
 }
 
 #project-name{
@@ -275,6 +286,7 @@ margin: 4.5%;
 
   .project-imgs{
     display: inline-block;
+    padding-top: 4%;
       /*width: 45%;*/
   }
 
@@ -282,6 +294,7 @@ margin: 4.5%;
 .prjectsImgs{
   width: 45%;
   margin: 1%;
+
   box-shadow: -1px -2px 1px rgba(0, 0, 0, 0.47)
 }
 
@@ -308,3 +321,21 @@ margin: 4.5%;
   height: 49px;
 
   }
+
+  .btn2{margin-top: 8%;
+    opacity: 0.5;
+    margin-bottom: 4%;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: fantasy;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background: rgba(52, 152, 219, 0);
+    padding: 10px 20px 10px 20px;
+    /* float: left; */
+    text-decoration: none;
+    text-shadow: 1px -1px 2px rgba(0, 0, 0, 0.42);
+    margin-left: 5%;
+    cursor: not-allowed;
+}

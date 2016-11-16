@@ -13,7 +13,7 @@ angular.module('portfolio')
       $('.code-work-button').css('color' ,'#464646');
       $('.what-I-know').css('color' ,'rgb(193, 192, 192)');
       $('.contact').css('color' , '#464646');
-
+       
 
     }
   }
