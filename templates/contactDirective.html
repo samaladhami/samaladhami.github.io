@@ -3,8 +3,8 @@
 
   <h2 id='contact' class='hello'>contact</h2>
     <div class="contact-content">
-      <button class='btn' type="button" name="button">VIEW RESUME</button>
-      <button class='btn' type="button" name="button">Download resume</button>
+      <a href="SamerResume.pdf" target="_blank"><button class='btn' type="button" name="button">VIEW RESUME</button></a>
+      <a href="SamerResume.pdf" download><button class='btn' type="button" name="button">Download resume</button></a>
       <div id="contact-background">
         <div class="phone">
           <img class='phone-icon' src="imgs/phone.png" alt="" />
@@ -36,9 +36,9 @@
             Dallas, TX
           </p>
         </div>
-        <div class="facebook">
+        <div class="facebook" ng-click='goToFacebook()'>
           <img class='facebook-icon' src="imgs/facebook.png" alt="" />
-          <p class='facebook-text' ng-click='goToFacebook()'>
+          <p class='facebook-text'>
           www.facebook.com/samir.setoo
           </p>
         </div>
@@ -49,3 +49,4 @@
     </div>
 
 </div>
+<a href="the file path" download><button type="button" name="button">download</button></a>
