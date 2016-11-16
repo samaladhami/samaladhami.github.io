@@ -9,6 +9,15 @@ angular.module('portfolio')
   $scope.goToAlienHunt = function(){
     window.open('http://104.236.5.8/#/')
   }
+  $scope.goToGithub = function(){
+    window.open('https://github.com/samaladhami ')
+  }
+  $scope.goToLinkedin = function(){
+    window.open('https://www.linkedin.com/in/samaladhami')
+  }
+  $scope.goToFacebook = function(){
+    window.open('https://www.facebook.com/samir.setoo')
+  }
 
 
 })

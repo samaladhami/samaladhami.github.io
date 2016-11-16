@@ -258,7 +258,7 @@ margin: 4.5%;
 }
 
   .btn {
-    margin-top: 8%;
+    margin-top: 4%;
     margin-bottom: 4%;
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
@@ -268,14 +268,13 @@ margin: 4.5%;
     font-size: 20px;
     background: rgba(52, 152, 219, 0);
     padding: 10px 20px 10px 20px;
-    /*float: left;*/
     text-decoration: none;
     text-shadow: 1px -1px 2px rgba(0, 0, 0, 0.42);
     margin-left: 5%;
 }
 
   .btn:hover {
-    background: #151515;
+    background-color: rgba(0, 0, 0, 0.76);
     text-decoration: none;
     color: #c5c3c3;
     text-shadow: 1px -1px 2px rgba(255, 252, 252, 0.42);
@@ -315,6 +314,88 @@ margin: 4.5%;
   float: right;
   box-shadow: -1px -2px 1px rgba(0, 0, 0, 0.47);
 }
+.contact-main-wrapper{
+  height: 100vh;
+  overflow: scroll;
+}
+
+#contact{
+  margin-left: -18%;
+}
+#contact-background{
+  background-color: rgba(0, 0, 0, 0.52);
+  border-radius: 16px;
+  width: 85%;
+  padding-top: 4%;
+  display: inline-block;
+  padding-bottom: 3%;
+}
+
+.contact-content{
+  width: 81%;
+}
+#contact-background > div{
+  display: inline-block;
+  width: 34%;
+  padding-top: 2%
+}
+
+.facebook:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.linkedin:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.github:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+
+.phone{
+
+}
+.phone-icon{
+  width: 22%;
+}
+.email{
+
+}
+.email-icon{
+  width: 23%;
+}
+.location{
+
+}
+.location-icon{
+  width: 22%;
+}
+.github{
+
+}
+.github-icon{
+  width: 26%;
+}
+.linkedin{
+
+}
+.linkedin-icon{
+  width: 24%;
+}
+.facebook{
+
+}
+.facebook-icon{
+  width: 24%;
+}
+
+.phone-text, .e-text, .location-text, .github-text, .linkedin-text, .facebook-text{
+  font-family: fantasy;
+  color: #c1c0c0;
+}
+
 
 .footer-img {
   width: 61%;
