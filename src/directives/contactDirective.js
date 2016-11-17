@@ -4,7 +4,7 @@ angular.module('portfolio')
   return{
     restract: 'E'
     ,controller: 'homeCtrl'
-    ,templateUrl: '../templates/contactDirective.html'
+    ,templateUrl: 'templates/contactDirective.html'
     ,link: function(scope, element, attrs) {
 
       $('.sideBar-nav').css('margin-top', '0px');

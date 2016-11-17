@@ -4,7 +4,7 @@ angular.module('portfolio')
   return{
     restract: 'E'
     ,controller: 'homeCtrl'
-    ,templateUrl: '../templates/whatIKnowDirective.html'
+    ,templateUrl: 'templates/whatIKnowDirective.html'
     ,link: function(scope, element, attrs) {
 
       $('.sideBar-nav').css('margin-top', '0px');
@@ -13,7 +13,7 @@ angular.module('portfolio')
       $('.code-work-button').css('color' ,'#464646');
       $('.what-I-know').css('color' ,'rgb(193, 192, 192)');
       $('.contact').css('color' , '#464646');
-       
+
 
     }
   }
