@@ -9,6 +9,9 @@ body{
 *:focus{
   outline: none;
 }
+*::-webkit-scrollbar {
+display: none;
+}
 
 section{
   text-align: center;
@@ -124,7 +127,7 @@ section{
 .sideBar-nav{
   margin-top: 75px;
   display: none;
-  overflow: scroll;
+  /*overflow: scroll;*/
 }
 .sideBar-nav > h2{
   margin-bottom: 56px;
