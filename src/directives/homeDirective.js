@@ -81,6 +81,33 @@ angular.module('portfolio')
         clearInterval( myPicInterval );
       },5000)
 
+      let scrolled=0;
+
+
+      $("#downClickHome").on("click" ,function(){
+
+        $('#upClickHome').show()
+        if( ($('.wrapper').scrollTop() ) == scrolled ){
+
+          scrolled = scrolled + 200;
+          }
+          $(".wrapper").animate({
+              scrollTop:  scrolled
+            });
+        });
+      $("#upClickHome").on("click" ,function(){
+
+        if(scrolled === 0 ){
+          $('#upClickHome').hide()
+        }
+        if(scrolled !== 0){
+          scrolled = scrolled - 200;
+        }
+        $(".wrapper").animate({
+          scrollTop:  scrolled
+             });
+        });
+
     }
   }
 })

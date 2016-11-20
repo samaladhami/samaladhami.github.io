@@ -6,11 +6,99 @@ body{
   background-size: 100vw 100vh;
   }
 
+*{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  }
+
 *:focus{
   outline: none;
 }
 *::-webkit-scrollbar {
 display: none;
+}
+
+.header{
+
+}
+#upClick{
+  width: 4%;
+  opacity: 0.3;
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  display: none;
+  cursor: pointer;
+  z-index: 100;
+}
+#upClickHome{
+  width: 4%;
+  opacity: 0.3;
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  display: none;
+  cursor: pointer;
+  z-index: 100;
+}
+#downClickHome{
+  width: 4%;
+  opacity: 0.2;
+  position: absolute;
+  bottom: 2%;
+  left: 1%;
+  cursor: pointer;
+  z-index: 100;
+}
+#upClickHome:hover{
+  opacity: 1;
+}
+#downClickHome:hover{
+  opacity: 1;
+}
+
+#upClickContact{
+  width: 4%;
+  opacity: 0.3;
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  display: none;
+  cursor: pointer;
+  z-index: 100;
+}
+#downClickContact{
+  width: 4%;
+  opacity: 0.2;
+  position: absolute;
+  bottom: 2%;
+  left: 1%;
+  cursor: pointer;
+  z-index: 100;
+}
+#upClickContact:hover{
+  opacity: 1;
+}
+#downClickContact:hover{
+  opacity: 1;
+}
+
+#downClick{
+  width: 4%;
+  opacity: 0.2;
+  position: absolute;
+  bottom: 2%;
+  left: 1%;
+  cursor: pointer;
+  z-index: 100;
+}
+#upClick:hover{
+  opacity: 1;
+}
+#downClick:hover{
+  opacity: 1;
 }
 
 section{
@@ -205,7 +293,7 @@ margin: 4.5%;
     margin-left: 0%;
     height: 92vh;
     padding-top: 4%;
-    overflow: scroll;
+    overflow: overlay;
     position: relative;
 }
 

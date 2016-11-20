@@ -14,6 +14,32 @@ angular.module('portfolio')
       $('.what-I-know').css('color' , '#464646');
       $('.contact').css('color' , '#464646');
 
+    let scrolled=0;
+
+
+    $("#downClick").on("click" ,function(){
+
+      $('#upClick').show()
+      if( ($('.projects-wrapper').scrollTop() ) == scrolled ){
+
+        scrolled = scrolled + 200;
+        }
+				$(".projects-wrapper").animate({
+				    scrollTop:  scrolled
+				  });
+			});
+    $("#upClick").on("click" ,function(){
+
+      if(scrolled === 0 ){
+        $('#upClick').hide()
+      }
+      if(scrolled !== 0){
+				scrolled = scrolled - 200;
+      }
+			$(".projects-wrapper").animate({
+			  scrollTop:  scrolled
+				   });
+			});
 
     }
   }
