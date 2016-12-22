@@ -134,9 +134,9 @@ section{
 }
 .myPic{
   width: 6px;
-  border-radius: 100%;
-  border: 2px solid #949292;
-  box-shadow: 1px -5px 12px #403f3f;
+  /*border-radius: 100%;*/
+  /*border: 2px solid #949292;*/
+  /*box-shadow: 1px -5px 12px #403f3f;*/
   margin-top: 18px;
 }
 
@@ -420,6 +420,7 @@ margin: 4.5%;
   padding-top: 4%;
   display: inline-block;
   padding-bottom: 3%;
+  margin-top: 3%;
 }
 
 .contact-content{
@@ -494,6 +495,15 @@ margin: 4.5%;
 
   }
 
+  .myPic2{
+    width: 95%;
+    border-radius: 22px;
+    border-radius: 100%;
+    border: 2px solid #949292;
+    box-shadow: 1px -5px 12px #403f3f;
+
+  }
+
   .btn2{margin-top: 8%;
     opacity: 0.5;
     margin-bottom: 4%;
@@ -511,3 +521,159 @@ margin: 4.5%;
     margin-left: 5%;
     cursor: not-allowed;
 }
+
+.myPic{
+  margin: auto;
+}
+
+@media only screen and (max-height: 520px) {
+  h2 {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #project-description {
+    margin-left: -10%;
+  }
+  .samDjLogo {
+    display: none;
+  }
+  .e-piano-icon {
+    display: none;
+  }
+  .alien-hunt-icon {
+    display: none;
+  }
+}
+
+
+
+@media only screen and (max-width: 425px) {
+
+  .hello {
+      font-size: 39px;
+      margin-left: 0%;
+  }
+  .project-logo-and-name {
+
+      margin-left: 17%;}
+
+      #project-name {
+          font-size: 26px;}
+  .line {
+      padding: 0% 21.5%;
+      border-bottom: 5px solid;
+      width: 30%;
+  }
+  .project-logo-and-name {
+      text-align: center;}
+  .project-description > p {
+      font-size: 15px;}
+  #project-description{
+    margin-left: -4%;
+  }
+  .project-description {
+      width: 89%;
+      margin-left: -12%;}
+
+    .myPic {
+      width: 4px;
+      /*border-radius: 100%;
+      border: 2px solid #949292;*/
+      /*box-shadow: 1px -5px 12px #403f3f;*/
+      margin-top: 18px;
+      margin-left: -23%;
+  }
+  .sideBar {
+      width: 92px;
+      font-size: 13px;
+  }
+  .prjectsImgs {
+      width: 82%;
+      margin: 0%;
+      margin-right: 11%;
+  }
+  .logo {
+      width: 88px;
+      font-size: 12px;
+      margin-bottom: 0;
+    }
+    .sideBar-nav > h2 {
+      margin-bottom: 29px;
+  }
+  .myPic2{
+    width: 67%;
+    border-radius: 22px;
+    border-radius: 100%;
+    border: 2px solid #949292;
+    box-shadow: 1px -5px 12px #403f3f;
+    margin-left: 68%;
+  }
+
+  .myPic{
+    border-radius: 0%;
+    border: none;
+    box-shadow: none;
+  }
+  .hello {
+      margin: 2px;
+      margin-left: -16%; }
+      .myName {
+      font-size: 21px;
+      width: 83%;}
+      .who-I-am-text > p {
+      font-size: 16px;
+      margin-left: -20%;}
+  .footer-img {
+      margin-right: 17%;
+  }
+  .btn{
+    margin-left: -12%;
+    font-size: 19px;
+    font-size: 22px;
+    padding: 6px;
+  }
+  .btn2{
+    display: none;
+  }
+  .icons-wrapper {
+      width: 74%;}
+  #WhatIknow {
+      padding-left: 9%;
+  }
+  #contact-background {
+    width: 88%;
+    margin-right: 6%;
+
+}
+ #contact-background > div {
+      width: 91%;
+   }
+#contact {
+    margin-left: -30%;
+}
+}
+
+
+@media only screen and (max-width: 375px) {
+
+
+.myPic2{
+  margin-left: 55%;
+}
+.btn{
+  font-size: 20px;
+}
+
+ }
+ @media only screen and (max-width: 325px) {
+
+ .myPic2 {
+    margin-left: 39%
+   }
+   #contact-background {
+    width: 88%;
+    margin-right: 17%;
+}
+
+  }
