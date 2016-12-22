@@ -567,6 +567,7 @@ margin: 4.5%;
   .sideBar {
     width: 119px;
   }
+
 }
 
 
@@ -583,6 +584,26 @@ margin: 4.5%;
 
       #project-name {
           font-size: 26px;}
+
+
+
+
+          .main-section {
+            margin-left: -2%;
+          }
+          .projects-wrapper {
+
+            margin-left: 1%;}
+
+          .icons-wrapper {
+            margin-left: -3%;
+          }
+
+
+
+
+
+
       .icons-wrapper {
           margin-left: -2%;
         }
@@ -595,18 +616,15 @@ margin: 4.5%;
       text-align: center;}
   .project-description > p {
       font-size: 15px;}
-  #project-description{
-    margin-left: -4%;
-  }
+  #project-description {
+      margin-left: -10%;
+     }
   .project-description {
       width: 89%;
       margin-left: -12%;}
 
     .myPic {
       width: 4px;
-      /*border-radius: 100%;
-      border: 2px solid #949292;*/
-      /*box-shadow: 1px -5px 12px #403f3f;*/
       margin-top: 18px;
       margin-left: -23%;
   }
