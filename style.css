@@ -531,16 +531,26 @@ margin: 4.5%;
     margin-bottom: 25px;
   }
   .logo {
-    width: 61px;
-    padding-top: 0px;
+    width: 80px;
+    padding-top: 4px;
     padding-bottom: 0px;
-  }
+}
+
 }
 
 @media only screen and (max-width: 768px) {
+  .main-section {
+    margin-left: -2%;
+}
+  .projects-wrapper {
+    width: 81%;
+    margin-left: -3.2%;}
   #project-description {
-    margin-left: -10%;
+    margin-left: 0%;
   }
+  .icons-wrapper {
+    margin-left: -3%;
+}
   .samDjLogo {
     display: none;
   }
@@ -549,6 +559,13 @@ margin: 4.5%;
   }
   .alien-hunt-icon {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 589px) {
+
+  .sideBar {
+    width: 119px;
   }
 }
 
@@ -566,6 +583,9 @@ margin: 4.5%;
 
       #project-name {
           font-size: 26px;}
+      .icons-wrapper {
+          margin-left: -2%;
+        }
   .line {
       padding: 0% 21.5%;
       border-bottom: 5px solid;
