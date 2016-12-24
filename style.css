@@ -6,8 +6,8 @@ body{
   background-size: 100vw 100vh;
   }
 
-*{
-  -webkit-user-select: none;
+.main-section , .sideBar , .projects-wrapper, .icons-wrapper{
+  -webkit-user-select: none
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
